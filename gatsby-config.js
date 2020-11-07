@@ -34,5 +34,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-  ],
-};
+    {
+          resolve: `gatsby-plugin-tidio`,
+          options: {
+            tidioId: "8fy5d2hccjhc1yc3goq9mfbfe9wxsih0",
+            // get this from the tidio script widget
+          },
+        },
+      ],
+    };
